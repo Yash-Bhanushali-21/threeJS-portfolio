@@ -1,4 +1,5 @@
 {
+  "homepage":"https://Yash-Bhanushali-21.github.io/threeJS-portfolio",
   "name": "threejs-portfolio-fun-side-project",
   "private": true,
   "version": "0.0.0",
@@ -7,7 +8,7 @@
     "dev": "vite",
     "build": "vite build",
     "pre-deploy" : "npm run build",
-    "deploy" : ""
+    "deploy": "gh-pages -d build" 
   },
   "devDependencies": {
     "@vitejs/plugin-react": "4.1",
